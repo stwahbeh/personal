@@ -1,0 +1,21 @@
+.nav {
+	float:right;
+	margin-bottom:0;
+}
+
+#nav {
+	margin-bottom:0;
+}
+
+#home {
+	background-color: lightgray;
+}
+
+#left {
+	text-align: center;
+    margin-top: 3em;
+}
+
+#title {
+	text-align: center;
+}

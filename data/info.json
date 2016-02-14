@@ -1,0 +1,64 @@
+[
+  // {
+  //   "Title": "Dawg Coffee",
+  //   "Description": "Built a responsive web page for dawg-coffee, a coffee company that provides coffee to the University of Washington Seattle campus. My first foray into building a responsive website",
+  //   "LanguagesUsed": "HTML, CSS",
+  //   "LibrariesUsed": "N/A",
+  //   "Image": 1,
+  //   "githubLink": "https://github.com/stwahbeh/dawg-coffee",
+  //   "websiteLink": "google.com"
+  // },
+  {
+    "Title": "Police Shootings",
+    "Description": "Reads crowdsourced police shooting data from deadspin, and maps it using Leaflet.js based on latitude and longitude. Further information is available to the user by clicking on each location ",
+    "LanguagesUsed": "HTML, CSS",
+    "LibrariesUsed": "Leaflet.js",
+    "Image": "img/police.png",
+    "githubLink": "https://github.com/stwahbeh/police-shooting",
+    "websiteLink": ""
+  },
+  {
+    "Title": "Greg Hay",
+    "Description": "Built a review site for one of my favorite teachers here at the University of Washington. Incorporates parse as a backend storage system(rip free parse). Allows users to create reviews, upvote, downvote, and delete user reviews.",
+    "LanguagesUsed": "HTML, CSS, Javascript",
+    "LibrariesUsed": "Parse",
+    "Image": "img/greg.png",
+    "githubLink": "https://github.com/stwahbeh/greg-hay",
+    "websiteLink": ""
+  },
+  {
+    "Title": "Spotify",
+    "Description": "In this project, I used Spotify’s api, to build a responsive webpage. In this project you can search for an album and find all of songs in that album as well as play said songs.\n",
+    "LanguagesUsed": "HTML, CSS, JavaScript\n",
+    "LibrariesUsed": "Spotify, jQuery",
+    "Image": "img/spotify.png",
+    "githubLink": "https://github.com/stwahbeh/spotify",
+    "websiteLink": ""
+  },
+  {
+    "Title": "Husky Nation",
+    "Description": "HuskyNation is a non profit that I co-founded. Hosted a University of Washington collegiate attempt for Red Light Green Light. Working with other departments on the University of Washington Campus to host collegiate events.\n",
+    "LanguagesUsed": "",
+    "LibrariesUsed": "",
+    "Image": null,
+    "githubLink": "www.thehuskynation.com",
+    "websiteLink": ""
+  },
+  {
+    "Title": "GAMERS",
+    "Description": "Managed and led a team of 4 students to build a discussion forum for GAMERS, a videogame research group here at UW. Forum is complete with user authentification, thread/post creation and deletion, and moderation",
+    "LanguagesUsed": "",
+    "LibrariesUsed": "jQuery, Firebase, Disqus",
+    "Image": "img/gamers.png",
+    "githubLink": "www.thehuskynation.com",
+    "websiteLink": ""
+  },
+  {
+    "Title": "Coming Soon",
+    "Description": "Building a responsive and interactive forum for GAMERS. More details coming soon!",
+    "LanguagesUsed": "HTML, CSS, JavaScript",
+    "LibrariesUsed": "Firebase",
+    "Image": 5,
+    "githubLink": "N/A"
+  }
+]
