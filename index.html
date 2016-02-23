@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 
 <head>
     <meta charset="utf-8">
@@ -19,31 +19,30 @@
 
 </head>
 
-<body>
-<div ng-app="myApp" ng-controller="myCtrl">
+<body ng-controller="myCtrl">
+<div >
 <div class="container">
   
   <div class="navbar" id='nav'>
 
-    <ul class="nav navbar-nav"  >
-    <li ng-class="navClass('home')"><a class="btn">Home</a></li>      
-      <li ng-class="navClass('projects')"><a class="btn">Projects</a></li>
-      <li ng-class="navClass('about')"><a class="btn">Contact</a></li>
-      <li ng-class="navClass('resume')"><a class="btn">Resume</a></li>
+    <ul class="nav navbar-nav" >
+      <li ng-class="navClass('resume')"><a class="btn" href="https://drive.google.com/file/d/0Bzg-TPUZPS2rVWp6dzhTU25FNTg/view?usp=sharing">Resume</a></li>
     </ul>
   </div>
 </div>
 <div class ="container" id="home">
-<p> home place holder </p>
+<p> Hello, I'm an extremely passionate undergraduate Informatics student here at the University of Washington. Currently looking for front-end work, SQL, or project management internships. Below you'll find sites I've built and projects I've worked on. You can find my contact info on my resume!</p>
 <div class = "container">
 </div>
 </div>
-<div class="container" id="projects">
-<div ng-repeat="item in items" class="row">
+<div>
     <h1 id="title">Projects </h1>
+
+<div class="container project" id="projects">
+<div ng-repeat="item in items" class="row">
     <div class="col-md-6" ng-click="" id="left">
     
-    <image ng-src="{{item.Image}}">
+    <a href="{{item.websiteLink}}"><img class="custThumbnail" id="image" ng-src="{{item.Image}}" ></a>
     </div>
     <div class="col-md-6" title="" ng-click="">
         <a href="{{item.websiteLink}}"><h2>{{item.Title}}</h2></a>
@@ -51,18 +50,14 @@
         <p id="languages">{{item.LanguagesUsed}}</p>
         <p id="Libraries">{{item.LibrariesUsed}}</p>
         <i class="fa fa-github"></i>
-
-
         <a href="{{item.githubLink}}" class="information-p">github</a> 
+
     </div>
+    <hr class="thin">
 </div>
 <div class = "container">
 <div class = "container" id = 'contact'>
 </div>
 </div>
-
-
-
-
-
+</div>
 </body>

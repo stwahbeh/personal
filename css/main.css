@@ -1,3 +1,23 @@
+/*add hovering*/
+
+body{
+	background-image: url("/img/dark.png");
+}
+
+.custThumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:inline;
+    z-index:999;
+}
+
+#projects{
+	background-color: white;
+}
+
 .nav {
 	float:right;
 	margin-bottom:0;
@@ -7,15 +27,33 @@
 	margin-bottom:0;
 }
 
-#home {
-	background-color: lightgray;
-}
 
 #left {
 	text-align: center;
     margin-top: 3em;
+    margin-bottom:3em;
 }
 
 #title {
 	text-align: center;
+	color:white;
 }
+
+#home{
+	text-align: center;
+	color:white;
+}
+
+#image{
+	
+}
+
+hr.thin {
+height: 1px;
+border: 0;
+color: #333;
+background-color: #333;
+width: 80%;
+margin-top: 3.5em;
+margin-bottom: 3.5em;
+} 
