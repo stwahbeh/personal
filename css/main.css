@@ -1,7 +1,7 @@
 /*add hovering*/
 
 body{
-	background-image: url("/img/dark.png");
+	background-image: url("img/dark.png");
 }
 
 .custThumbnail:hover {
